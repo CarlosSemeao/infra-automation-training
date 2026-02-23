@@ -1,0 +1,1 @@
+uid=1002(devops_user) gid=1002(devops_user) groups=1002(devops_user)
