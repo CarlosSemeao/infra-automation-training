@@ -1,0 +1,15 @@
+---
+- name: Ensure secure permissions on target file
+  hosts: localhost
+  become: true
+
+  tasks:
+    - name: Ensure file exists
+      file:
+        path: /tmp/secure_file.txt
+        state: file
+
+    - name: Ensure permission is 0600
+      file:
+        path: /tmp/secure_file.txt
+        mode: '0600'
