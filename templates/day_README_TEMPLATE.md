@@ -1,7 +1,7 @@
 # Day XX — <Title>
 
 ## Objective
-<One sentence: what the system must accomplish>
+One sentence: what the system must accomplish.
 
 ## Scope
 - Target: <user/service/path/etc>

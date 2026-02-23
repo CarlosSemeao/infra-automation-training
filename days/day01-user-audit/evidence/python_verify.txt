@@ -1,0 +1,1 @@
+[OK] User devops_user already exists

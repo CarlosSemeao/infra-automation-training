@@ -1,0 +1,8 @@
+- name: Ensure devops_user exists
+  hosts: localhost
+  become: yes
+  tasks:
+    - name: Create user if missing
+      user:
+        name: devops_user
+        state: present
