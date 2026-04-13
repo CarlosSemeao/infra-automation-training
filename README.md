@@ -1,25 +1,21 @@
-# Linux Automation Training (Bash → Python → Ansible)
-
-Hands-on daily training program focused on real Linux administration tasks, implemented three ways:
+# Linux Automation
 1) Bash scripting (CLI-first automation)
 2) Python (system automation using subprocess)
 3) Ansible (idempotent automation)
 
-## Why this repo exists
-Proof-of-work repository showing:
-- real admin objectives
+## Objectives
+- admin objectives
 - repeatable steps
 - verification commands
-- evidence (output + screenshots/logs)
+- evidence
 
 ## Environment
-- Host: macOS (MacBook Air M3)
-- Lab: Fedora Linux VM (Parallels Desktop)
-- Tools: Bash, Python 3.x, Ansible
-- Workflow: VS Code + terminal + GitHub documentation
+- Host: macOS
+- Lab: Fedora VM
+- Tools: Bash, Python and Ansible
+- Workflow: terminal -> GitHub
 
-## Daily structure
-Each day includes:
+## Structure
 - Objective
 - Bash implementation
 - Python implementation
